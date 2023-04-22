@@ -1,1 +1,19 @@
 body{background-color: blueviolet;}
+
+.intro{border: 5px solid yellowgreen; display: flex;}
+
+
+.nav{border: 2px solid whitesmoke; margin: 15px;
+display: flex; width: 200px; 
+font-family: font-family 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Orbitron', sans-serif;;
+
+}
+
+
+
+.heroSpace{border: 5px solid wheat; height: 500px; width: auto;
+margin-top: 8px;}
+
+.pic{}
