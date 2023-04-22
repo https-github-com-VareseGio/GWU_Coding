@@ -1,19 +1,52 @@
-body{background-color: blueviolet;}
+body{background-color: whitesmoke;
+    font-family: font-family 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;}
 
-.intro{border: 5px solid yellowgreen; display: flex;}
+.intro{ display: flex;
+padding-bottom: 12px;}
 
 
-.nav{border: 2px solid whitesmoke; margin: 15px;
-display: flex; width: 200px; 
+/* .nav{border: 2px solid whitesmoke; margin: 15px;
+display: grid; width: 200px; 
 font-family: font-family 'Montserrat', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
 font-family: 'Orbitron', sans-serif;color: beige;
+display: inline-block;
+list-style-type: none
+} */
 
+/* .listed{width: 10px; display: flex; list-style-type: none;
+    margin: 0;
+    padding: 0; margin-right: 20px;} */
+
+    .logo{width: 1000px;}
+
+
+    .nav{font-family: 'Montserrat', sans-serif;
+        font-family: 'Nunito Sans', sans-serif;
+        font-family: 'Orbitron', sans-serif;
+        color: black; 
+        list-style: none;
+          display: flex;
+        font-size: 15px;}
+
+        il{margin-right: 20px;}
+
+
+
+.heroSpace{display: grid; 
+  
+    padding: 0px;
+margin-top: 8px;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+grid-template-areas: "pic firstview firstview firstview";
+color: black;
+font-family: 'Helvetica', sans-serif;
 }
 
 
 
-.heroSpace{border: 5px solid wheat; height: 500px; width: auto;
-margin-top: 8px;}
+.pic{grid-area:pic;}
 
-.pic{}
+.firstview{grid-area:firstview; margin-left: 20px; margin-right: 20px;}
